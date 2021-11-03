@@ -96,10 +96,16 @@
     <ManifestKeyFile>TEST_Software_DAC20BIT_V3_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <GenerateManifests>true</GenerateManifests>
+    <GenerateManifests>false</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Ivi.Visa, Culture=neutral, PublicKeyToken=a128c98f1d7717c1, processorArchitecture=MSIL" />
@@ -574,6 +580,7 @@
     <None Include="obj\Debug\TEST_Software_V3.application" />
     <None Include="obj\Debug\TEST_Software_V3.exe.manifest" />
     <None Include="obj\Release\TEST_Software_DAC20BIT_V1.csproj.CoreCompileInputs.cache" />
+    <None Include="Properties\app.manifest" />
     <None Include="resource\NationalInstruments.Common.msl" />
     <None Include="TEST_Software_DAC20BIT_V3_TemporaryKey.pfx" />
   </ItemGroup>

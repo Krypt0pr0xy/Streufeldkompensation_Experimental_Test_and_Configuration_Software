@@ -1807,7 +1807,7 @@ namespace TEST_Software_V1
             }
             catch (Exception ex) { Adding_text_to_textbox("Error:" + ex.Message.ToString()); }//if an error has happend catch with exception
         }
-
+        
 
         private void Adding_text_to_textbox(String input)//Funtion for adding text to the end of the text box
         {
