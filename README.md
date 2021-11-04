@@ -30,6 +30,17 @@ Number | Description
  13\. | with this values you can set the start and stop Voltage
  14\. | On the Data block you can get to the calculated / stored Values.
 
+***
+### How to setup the Test Software:
+1. Connect to the Mesure Device (1) and select the Device ID. You need to Install NI Max to connect to the DMM6500 
+2. Connect to the DAC by selecting the COM Port (3)
+3. Open the Serial Port
+4. Select the Channel you want to mesure (6)
+5. Press start to initialize mesure process
+
+7. When the mesurment is finished you can select the data by `Save Values` this are the Offset and Slope values. By Pressing the `write data to File` Button you can save the raw mesured data. If you want to save th Chart press `Save Picture of Chart`.
+
+***
 
 [1]:https://github.com/Krypt0pr0xy/Streufeldkompensation
 [2]:https://github.com/Krypt0pr0xy/Streufeldkompensation_Official_Software
