@@ -112,7 +112,7 @@ The AlphaA Values are the slope values and AlphaB are offset
 8. After everything is connected you can download the program code to the controller by pressing the Flash Button.
 9. As a tip, take a look at the console to check if the writing was successful.
 ***
-If you dont want to use the correction you can simply comment out this line of code `#define CORRECTION` or set the AlphaA value to 1 and AlphaB to zero.
+If you dont want to use the correction you can simply comment out this line of code `#define CORRECTION` or set the AlphaA value to 1 and AlphaB to 0.
 
 
 [1]:https://github.com/Krypt0pr0xy/Streufeldkompensation
