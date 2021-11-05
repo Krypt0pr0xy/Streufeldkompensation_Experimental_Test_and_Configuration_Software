@@ -37,12 +37,18 @@ Number | Description
 3. Open the Serial Port
 4. Select the Channel you want to mesure (6)
 5. Press start to initialize mesure process
-
-7. When the mesurment is finished you can select the data by `Save Values` this are the Offset and Slope values. By Pressing the `write data to File` Button you can save the raw mesured data. If you want to save th Chart press `Save Picture of Chart`.
-
+6. When the mesurment is finished you can select the data by `Save Values` this are the Offset and Slope values. By Pressing the `write data to File` Button you can save the raw mesured data. If you want to save th Chart press `Save Picture of Chart`.
 ***
+## Calibration
+1. To calibrate the DAC box, save the data from the Save Values for each channel and for each output voltage setting (+/- 1V and +/-10V).
+2. Install Code Composer Studio. Instructions can be found at the following [link][5].
+3. Import Master Project. [Link][6].
+
 
 [1]:https://github.com/Krypt0pr0xy/Streufeldkompensation
 [2]:https://github.com/Krypt0pr0xy/Streufeldkompensation_Official_Software
 [3]:https://github.com/Krypt0pr0xy/Streufeldkompensation_Experimental_Test_and_Configuration_Software/blob/master/bin/Debug/TEST_Software_V3.exe
 [4]:https://github.com/Krypt0pr0xy/Streufeldkompensation_Experimental_Test_and_Configuration_Software/blob/master/Streufeldkompensation_Test_and_Configuration_Software_GUI.JPG
+[5]:https://github.com/Krypt0pr0xy/Streufeldkompensation/blob/master/CodeComposerStudio_install.md
+[6]:https://github.com/Krypt0pr0xy/Streufeldkompensation/blob/master/add_project_to_CCS.md
+
