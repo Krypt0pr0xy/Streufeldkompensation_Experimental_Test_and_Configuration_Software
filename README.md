@@ -102,7 +102,15 @@ The AlphaA Values are the slope values and AlphaB are offset
 ***
 6. When all values are inserted you have to compile the code, this is done via the hammer symbol.
 7. After that you have to connect the MSP430 Launchpad. It is important that the Ground / RST and TEST are connected. In addition, the jumper settings should be set as shown in the picture. 
-8. 
+***
+### MSP430 Launchpad
+![Image][8]
+***
+### Spy by wire connection
+![Image][9]
+***
+8. After everything is connected you can download the program code to the controller by pressing the Flash Button.
+9. As a tip, take a look at the console to check if the writing was successful.
 
 
 [1]:https://github.com/Krypt0pr0xy/Streufeldkompensation
@@ -112,4 +120,6 @@ The AlphaA Values are the slope values and AlphaB are offset
 [5]:https://github.com/Krypt0pr0xy/Streufeldkompensation/blob/master/CodeComposerStudio_install.md
 [6]:https://github.com/Krypt0pr0xy/Streufeldkompensation/blob/master/add_project_to_CCS.md
 [7]:https://github.com/Krypt0pr0xy/Streufeldkompensation/blob/master/Streufeldkompensation_Master_V1/Streufeldkompensation_function.h
+[8]:https://github.com/Krypt0pr0xy/Streufeldkompensation/blob/master/MSP430_Launchpad.jpg
+[9]:https://github.com/Krypt0pr0xy/Streufeldkompensation/blob/master/spy_by_wire_connection.jpg
 
