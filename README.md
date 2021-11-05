@@ -111,8 +111,7 @@ The AlphaA Values are the slope values and AlphaB are offset
 ***
 8. After everything is connected you can download the program code to the controller by pressing the Flash Button.
 9. As a tip, take a look at the console to check if the writing was successful.
-
-
+---
 [1]:https://github.com/Krypt0pr0xy/Streufeldkompensation
 [2]:https://github.com/Krypt0pr0xy/Streufeldkompensation_Official_Software
 [3]:https://github.com/Krypt0pr0xy/Streufeldkompensation_Experimental_Test_and_Configuration_Software/blob/master/bin/Debug/TEST_Software_V3.exe
