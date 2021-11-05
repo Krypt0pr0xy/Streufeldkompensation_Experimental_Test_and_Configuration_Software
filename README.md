@@ -43,6 +43,68 @@ Number | Description
 1. To calibrate the DAC box, save the data from the Save Values for each channel and for each output voltage setting (+/- 1V and +/-10V).
 2. Install Code Composer Studio. Instructions can be found at the following [link][5].
 3. Import Master Project. [Link][6].
+4. Search in the project for the following file: [Streufeldkompensation_function.h][7].
+5. The slope and offset values must be inserted on the following lines:
+//Gain (A) setting -10 bis 10 in 0.5 schritten
+//      +/- 10V
+
+***
+```C
+//      +/- 10V
+#define CH1_AlphaA_10 1.0001088384669
+#define CH1_AlphaB_10 -0.000074437497073571
+
+#define CH2_AlphaA_10 1.00006678236934
+#define CH2_AlphaB_10 -0.000102876570730844
+
+#define CH3_AlphaA_10 0.999930388745645
+#define CH3_AlphaB_10 0.000192725953658485
+
+#define CH4_AlphaA_10 0.999968902926829
+#define CH4_AlphaB_10 0.0000795440404880362
+
+#define CH5_AlphaA_10 1
+#define CH5_AlphaB_10 0
+
+#define CH6_AlphaA_10 1
+#define CH6_AlphaB_10 0
+
+#define CH7_AlphaA_10 1
+#define CH7_AlphaB_10 0
+
+#define CH8_AlphaA_10 1
+#define CH8_AlphaB_10 0
+
+//      +/-1V
+#define CH1_AlphaA_1 0.999967053101045
+#define CH1_AlphaB_1 -0.00000481405541466135
+
+#define CH2_AlphaA_1 0.999953392473868
+#define CH2_AlphaB_1 -0.0000102498604878234
+
+#define CH3_AlphaA_1 0.999861222682927
+#define CH3_AlphaB_1 0.000016563681951194
+
+#define CH4_AlphaA_1 0.999933929581882
+#define CH4_AlphaB_1 0.00000790920397566669
+
+#define CH5_AlphaA_1 1
+#define CH5_AlphaB_1 0
+
+#define CH6_AlphaA_1 1
+#define CH6_AlphaB_1 0
+
+#define CH7_AlphaA_1 1
+#define CH7_AlphaB_1 0
+
+#define CH8_AlphaA_1 1
+#define CH8_AlphaB_1 0
+```
+
+The AlphaA Values are the slope values and AlphaB are offset 
+***
+6. When all values are inserted you have to compile the code, this is done via the hammer symbol.
+7. 
 
 
 [1]:https://github.com/Krypt0pr0xy/Streufeldkompensation
@@ -51,4 +113,5 @@ Number | Description
 [4]:https://github.com/Krypt0pr0xy/Streufeldkompensation_Experimental_Test_and_Configuration_Software/blob/master/Streufeldkompensation_Test_and_Configuration_Software_GUI.JPG
 [5]:https://github.com/Krypt0pr0xy/Streufeldkompensation/blob/master/CodeComposerStudio_install.md
 [6]:https://github.com/Krypt0pr0xy/Streufeldkompensation/blob/master/add_project_to_CCS.md
+[7]:https://github.com/Krypt0pr0xy/Streufeldkompensation/blob/master/Streufeldkompensation_Master_V1/Streufeldkompensation_function.h
 
