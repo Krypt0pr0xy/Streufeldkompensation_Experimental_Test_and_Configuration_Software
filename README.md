@@ -97,7 +97,6 @@ Number | Description
 #define CH8_AlphaA_1 1
 #define CH8_AlphaB_1 0
 ```
-
 The AlphaA Values are the slope values and AlphaB are offset 
 ***
 6. When all values are inserted you have to compile the code, this is done via the hammer symbol.
@@ -113,7 +112,8 @@ The AlphaA Values are the slope values and AlphaB are offset
 9. As a tip, take a look at the console to check if the writing was successful.
 ***
 If you dont want to use the correction you can simply comment out this line of code `#define CORRECTION` or set the AlphaA value to 1 and AlphaB to 0.
-
+These lines are in the same file as mentioned before.  [Streufeldkompensation_function.h][7]
+***
 
 [1]:https://github.com/Krypt0pr0xy/Streufeldkompensation
 [2]:https://github.com/Krypt0pr0xy/Streufeldkompensation_Official_Software
