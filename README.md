@@ -45,9 +45,6 @@ Number | Description
 3. Import Master Project. [Link][6].
 4. Search in the project for the following file: [Streufeldkompensation_function.h][7].
 5. The slope and offset values must be inserted on the following lines:
-//Gain (A) setting -10 bis 10 in 0.5 schritten
-//      +/- 10V
-
 ***
 ```C
 //      +/- 10V
@@ -104,7 +101,8 @@ Number | Description
 The AlphaA Values are the slope values and AlphaB are offset 
 ***
 6. When all values are inserted you have to compile the code, this is done via the hammer symbol.
-7. 
+7. After that you have to connect the MSP430 Launchpad. It is important that the Ground / RST and TEST are connected. In addition, the jumper settings should be set as shown in the picture. 
+8. 
 
 
 [1]:https://github.com/Krypt0pr0xy/Streufeldkompensation
